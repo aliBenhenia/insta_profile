@@ -1,0 +1,83 @@
+
+#pro
+{
+  width: 200px;
+  border-radius: 50%;
+  border: 3px red solid;
+  padding: 3px
+}
+#pro:hover
+{
+   padding : 5px;
+}
+h4,#folow,#contact,#usr{
+  display: inline-block;
+  font-weight: bold;
+}
+#folow{
+  margin-left: 2rem;
+}
+#contact{
+  margin-left: 2rem;
+  background-color: aliceblue;
+  color: black;
+}
+#str
+{
+  display: flex;
+  justify-content: center;
+}
+.str
+{
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 3rem;
+}
+.str img
+{
+  width: 77px;
+  border-radius: 50%;
+}
+.pst
+{
+  width: 10%;
+  position: relative;
+}
+.pst img{
+  max-width: 100%;
+}
+.bnr
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.303);
+  opacity: 0;
+  display: flex;
+  font-size: 2rem;
+  justify-content:center ;
+  padding-top: 50%;
+  color: aliceblue;
+}
+.bnr:hover{
+  opacity: 1;
+}
+.icn2
+{
+  margin-left: 3rem;
+  transition: all .4s;
+}
+.icn
+{
+  transition: all .4s;
+}
+.icn2:hover{
+  color: crimson;
+  transform: rotate(10deg);
+}
+.icn:hover{
+  color: crimson;
+  transform: rotate(3deg);
+}
